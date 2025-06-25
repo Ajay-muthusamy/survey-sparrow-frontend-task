@@ -1,6 +1,7 @@
 import React, { useContext, useState } from "react";
 import GlobalContext from "../context/GlobalContext";
 import { FaRegClock, FaCalendarAlt } from "react-icons/fa";
+
 import dayjs from "dayjs";
 
 const EventModel = () => {
@@ -14,8 +15,9 @@ const EventModel = () => {
   const [addGuest, setAddGuest] = useState(false);
   const [addLocation, setAddLocation] = useState(false);
   const [addDescription, setaddDescription] = useState(false);
-  const [selectLabel, setSelectLabel] = useState("indigo");
+  const [selectLabel, setSelectLabel] = useState("bg-indigo-500");
 
+  const [colorError, setColorError] = useState("");
   const [guest, setGuest] = useState("");
   const [location, setLocation] = useState("");
   const [description, setDescription] = useState("");
@@ -26,6 +28,8 @@ const EventModel = () => {
 
   function handlesubmit(e) {
     e.preventDefault();
+
+    
 
     const calendarEvent = {
       id: Date.now(),
@@ -46,7 +50,7 @@ const EventModel = () => {
   }
 
   return (
-    <div className="h-screen w-full fixed left-0 top-0 flex justify-center items-center p-3">
+    <div className="h-screen w-full fixed left-0 top-0 flex justify-center items-center p-3 ">
       <form
         className="bg-[#F0F4F9] rounded-lg shadow-2xl w-[75vh]"
         onSubmit={handlesubmit}
@@ -224,7 +228,10 @@ const EventModel = () => {
                           key={i}
                           type="button"
                           className={`${ele.hex} w-6 h-6 rounded-full flex items-center justify-center cursor-pointer hover:opacity-80`}
-                          onClick={() => setSelectLabel(ele.hex)}
+                          onClick={() => {
+                            setSelectLabel(ele.hex);
+                            setColorError(""); 
+                          }}
                         >
                           {selectLabel === ele.hex && (
                             <span className="material-icons-outlined text-white text-[14px] leading-none">
@@ -234,6 +241,7 @@ const EventModel = () => {
                         </button>
                       ))}
                     </div>
+                    <p className="text-red-500 text-sm mt-1">{colorError}</p>
                     <hr />
                     <div className="flex justify-end text-white">
                       <button
@@ -291,7 +299,10 @@ const EventModel = () => {
                         key={i}
                         type="button"
                         className={`${ele.hex} w-6 h-6 rounded-full flex items-center justify-center cursor-pointer hover:opacity-80`}
-                        onClick={() => setSelectLabel(ele.hex)}
+                        onClick={() => {
+                          setSelectLabel(ele.hex);
+                          setColorError(""); 
+                        }}
                       >
                         {selectLabel === ele.hex && (
                           <span className="material-icons-outlined text-white text-[14px] leading-none">

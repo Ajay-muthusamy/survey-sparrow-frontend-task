@@ -71,7 +71,7 @@ const Labels = () => {
       </div>
 
       <div>
-        <div className="mt-10 flex items-center">
+        <div className="mt-10 flex items-center cursor-pointer">
           <img
             src="https://avatars.githubusercontent.com/u/127031263?v=4"
             alt="avatar"

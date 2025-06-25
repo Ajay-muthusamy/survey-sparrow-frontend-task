@@ -28,11 +28,22 @@
         "trash":true
     },
     {
-        "date": "2025-06-25",
+        "date": "2025-06-26",
         "startTime":"01:00 PM",
         "endTime":"04:30 PM",
         "color":"#6F0097FF",
         "title":"Survey Sparrow",
+        "time":true,
+        "trash":true
+
+
+    },
+    {
+        "date": "2025-06-09",
+        "startTime":"01:00 PM",
+        "endTime":"04:30 PM",
+        "color":"#970032FF",
+        "title":"Daily Scrum",
         "time":true,
         "trash":true
 
