@@ -6,7 +6,7 @@
 
 ## 📊 Task Overview
 
-This project is a responsive and interactive calendar-based application built as part of the **Survey Sparrow Frontend Task**.
+This is interactive calendar-based application built as part of the **Survey Sparrow Frontend Task**.
 
 ---
 
