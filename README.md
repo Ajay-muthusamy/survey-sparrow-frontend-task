@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://static.surveysparrow.com/site/assets/surveysparrow-logo.png" alt="SurveySparrow Logo" width="150"/>
+  <img src="https://static.surveysparrow.com/site/assets/surveysparrow-logo.png" alt="SurveySparrow Logo" width="120"/>
 </p>
 #📝 Survey Sparrow Frontend Task
 
