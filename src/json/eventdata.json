@@ -1,0 +1,41 @@
+[
+    {
+        "date": "2025-06-23",
+        "startTime":"00:00",
+        "endTime":"01:30",
+        "color":"#f6be23",
+        "title":"Daily Stanup",
+        "time":true,
+        "trash":true
+
+
+    },
+    {
+        "date": "2025-06-24",
+        "startTime":"4:30",
+        "endTime":"7:30",
+        "color":"#f6501e",
+        "title":"Weekly catchup",
+        "time":true,
+        "trash":true
+
+    },
+    {
+        "date": "2025-06-07",
+        "color":"#0B8043",
+        "title":"Bakrid",
+        "time":false,
+        "trash":true
+    },
+    {
+        "date": "2025-06-25",
+        "startTime":"01:00 PM",
+        "endTime":"04:30 PM",
+        "color":"#6F0097FF",
+        "title":"Survey Sparrow",
+        "time":true,
+        "trash":true
+
+
+    }
+]
