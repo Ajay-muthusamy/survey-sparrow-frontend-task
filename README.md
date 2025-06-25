@@ -1,12 +1,37 @@
-# React + Vite
+<p align="center">
+  <img src="https://static.surveysparrow.com/site/assets/surveysparrow-logo.png" alt="SurveySparrow Logo" width="120"/>
+</p>
+#📝 Survey Sparrow Frontend Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live URL:** [View Live Application](https://survey-sparrow-frontend-task.vercel.app/)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📊 Task Overview
 
-## Expanding the ESLint configuration
+This is interactive calendar-based application built as part of the **Survey Sparrow Frontend Task**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚡ Key Highlights
+
+✅ Calendar with Monthly View  
+✅ Event Creation & Management  
+✅ Interactive Event Modal  
+✅ Day & Event Highlighting  
+✅ Clean UI with Tailwind CSS  
+✅ Icon Support via React Icons  
+✅ State Managed Using React's Context API  
+
+---
+
+## 🛠️ Tech Stack Used
+
+- **React** — UI Library  
+- **Tailwind CSS** — Utility-first CSS Styling  
+- **React Icons** — Icon Library  
+- **Context API** — Global State Management  
+
+## 🔗 Live Demo
+
+👉 [https://survey-sparrow-frontend-task.vercel.app/](https://survey-sparrow-frontend-task.vercel.app/)
