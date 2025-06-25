@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://static.surveysparrow.com/site/assets/surveysparrow-logo.png" alt="SurveySparrow Logo" width="250"/>
+</p>
 # 📝 Survey Sparrow Frontend Task
 
 **Live URL:** [View Live Application](https://survey-sparrow-frontend-task.vercel.app/)
