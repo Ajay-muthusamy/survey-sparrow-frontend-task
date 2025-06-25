@@ -50,7 +50,8 @@ const EventModel = () => {
   }
 
   return (
-    <div className="h-screen w-full fixed left-0 top-0 flex justify-center items-center p-3 ">
+    <div className="h-screen w-full fixed left-0 top-0 flex justify-center items-center p-3 "
+    onClick={() => setShowEventModal(false)}>
       <form
         className="bg-[#F0F4F9] rounded-lg shadow-2xl w-[75vh]"
         onSubmit={handlesubmit}
