@@ -35,13 +35,6 @@ const Day = ({ day, rowIdx, events }) => {
     setDayEvents(events);
   }, [savedEvents, day]);
 
-  function handleDelete() {
-    if (eventModel) {
-      dispatchCalEvent({ type: "delete", payload: eventModel });
-      setEventModel(null);
-      setoptionModel(false);
-    }
-  }
 
   return (
     <div className="border border-gray-200 flex flex-col hover:bg-gray-50 min-h-[80px] cursor-pointer">
@@ -121,15 +114,6 @@ const Day = ({ day, rowIdx, events }) => {
                   </div>
                 </div>
               )}
-
-              {eventModel.trash ? null : (
-                <FiTrash2
-                  className="text-2xl text-red-500 cursor-pointer"
-                  onClick={handleDelete}
-                  title="Delete"
-                />
-              )}
-
               <IoCloseOutline
                 className="text-2xl cursor-pointer"
                 onClick={() => {
@@ -154,6 +138,7 @@ const Day = ({ day, rowIdx, events }) => {
             <hr />
 
             <hr />
+
             {eventModel.trash ? (
               <>
                 {eventModel.time ? (
@@ -179,6 +164,7 @@ const Day = ({ day, rowIdx, events }) => {
                 </div>
               </div>
             )}
+
             <hr />
           </div>
         </div>
